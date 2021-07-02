@@ -46,11 +46,13 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         DozeUtils.checkDozeService(context);
         PopupCameraUtils.startService(context);
-       VibratorSettings.restoreValue(context);
-
+        VibratorSettings.restoreValue(context);
+        ThermalUtils.startService(context);
+        DcDimmingUtils.startService(context);
+        VibratorSettings.restoreValue(context);
+        DozeUtils.onBootCompleted(context);
         if (KcalUtils.isKcalSupported())
             KcalUtils.writeCurrentSettings(sharedPrefs);
-        ThermalUtils.startService(context);
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
         FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");

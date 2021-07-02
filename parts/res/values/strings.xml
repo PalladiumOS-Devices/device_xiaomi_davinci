@@ -87,4 +87,7 @@
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_streaming">Streaming</string>
+
+    <string name="doze_brightness_title">Doze brightness</string>
+    <string name="doze_brightness_summary">%s mode is enabled</string>
 </resources>
