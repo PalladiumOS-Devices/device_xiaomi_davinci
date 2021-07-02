@@ -36,4 +36,8 @@
     <!-- Pick-up to wake gesture-->
     <string name="wake_gesture_title">Risveglia</string>
     <string name="wake_gesture_summary">Risveglia il dispositivo invece di mostrare Ambient Display</string>
+
+    <!-- Doze brightness -->
+    <string name="doze_brightness_title">Luminosità Doze</string>
+    <string name="doze_brightness_summary">Modalità %s abilitata</string>
 </resources>
