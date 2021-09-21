@@ -8,21 +8,9 @@
     "target_path": "vendor/xiaomi/davinci"
   },
   {
-    "remote": "github",
-    "repository": "LineageOS/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "branch": "lineage-18.1"
-  },
-  {
     "remote": "gitlab",
     "repository": "spkal01/vendor_aenoax_anxcamera",
     "target_path": "vendor/aeonax/ANXCamera",
     "branch": "11"
-  },
-  {
-    "remote": "github",
-    "repository": "CoolGuyMK/android_hardware_qcom_audio",
-    "target_path": "hardware/qcom-caf/sm8150/audio",
-    "branch": "lineage-18.1-caf-sm8150"
   }
 ]
